@@ -65,3 +65,17 @@ Task
     > a+b = 20 
     but you need to get output as "1010"
 
+
+    var a = 10
+    undefined
+    var b = 10
+    undefined
+    a+b
+    20
+    1010
+    1010
+    a.toString()+a.toString()
+    "1010"
+    ""+a+b
+    "1010"
+
