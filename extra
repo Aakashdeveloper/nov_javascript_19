@@ -10,3 +10,11 @@ https://git-scm.com/downloads
 git add .
 git commit -m "first commit"
 git push -u origin master
+
+>> Create package.json
+>> Navigate to the folder
+>> npm init
+>> answer all questions
+>>  type "yes"
+
+>> npm i @babel/core @babel/preset-env  @babel/register babel-polyfill

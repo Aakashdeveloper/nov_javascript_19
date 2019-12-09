@@ -11,4 +11,5 @@ articles.latestArticle = [
     }
 ]
 
-module.exports = articles
+//module.exports = articles
+export default articles;

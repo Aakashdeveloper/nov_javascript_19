@@ -1,0 +1,20 @@
+{
+  "name": "transpile",
+  "version": "1.0.0",
+  "description": "this is about transpile",
+  "main": "one.js",
+  "scripts": {
+    "start": "node start.js"
+  },
+  "keywords": [
+    "node"
+  ],
+  "author": "nareshit",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.7.5",
+    "@babel/preset-env": "^7.7.6",
+    "@babel/register": "^7.7.4",
+    "babel-polyfill": "^6.26.0"
+  }
+}
