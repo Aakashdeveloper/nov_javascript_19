@@ -1,0 +1,40 @@
+<html>
+    <head>
+        <style>
+            #main{
+                height: 300px;
+                width:300px;
+                background-color:red
+            }
+        </style>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script>
+            /*
+            $('h1')[0].innerHTML
+                "I'm AAKASH HANDA"
+                $('h1')[0].innerHTML="I am Naresh IT"
+                "I am Naresh IT"
+            */
+            $(document).ready(()=>{
+                $('#change').click(()=>{
+                    $('#one').css('color','green')
+                })
+                $('#hide').click(()=>{
+                    $('#main').hide(2000)
+                })
+                $('#show').click(()=>{
+                    $('#main').show(2000)
+                })
+
+            })
+        </script>
+    </head>
+    <body>
+        <h1 id="one">This is for jquery</h1>
+        <button id="hide">Hide me</button>
+        <button id="show">Show me</button>
+        <button id="change">Chnage Color</button>
+
+        <div id="main"></div>
+    </body>
+</html>
