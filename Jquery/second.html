@@ -1,0 +1,40 @@
+<html>
+    <head>
+        <style>
+            .hidden{
+                display: none;
+            }
+        </style>
+         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script>
+            function showPage(){
+                $('.main').removeClass('hidden')
+            }
+            function backPage(){
+                $('.main').addClass('hidden')
+            }
+            $(document).ready(() => {
+                $('#addSkill').click(() => {
+                    $('ul').prepend("<li>Task</li>")
+                })
+                $('#addSkill1').click(() => {
+                    $('#skill').prepend("<input type='text' placeholder='skill'><br/>")
+                })
+            })
+        </script>
+    </head>
+    <body>
+        <div class="main hidden">
+            <h1 class="js-hide-it">Hello To Parent Div</h1>
+            <p class="js-para">Welcome</p>
+            <ul>
+
+            </ul>
+            <div id="skill"></div>
+        </div>
+        <button type="button" onClick="showPage()">Show Page</button>
+        <button type="button" onClick="backPage()">Back to basic</button>
+        <button id="addSkill">Add Task</button>
+        <button id="addSkill1">Add Skills</button>
+    </body>
+</html>

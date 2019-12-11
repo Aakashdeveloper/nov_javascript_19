@@ -18,3 +18,22 @@ git push -u origin master
 >>  type "yes"
 
 >> npm i @babel/core @babel/preset-env  @babel/register babel-polyfill
+
+[
+    {
+        "name":"john",
+        "class":"ui",
+        "subject":[
+            {"hindi":40},
+            {"english":30}
+        ]
+    },
+    {
+        "name":"Eva",
+        "class":"Node",
+        "subject":[
+            {"French":40},
+            {"Germen":30}
+        ]
+    }
+]
